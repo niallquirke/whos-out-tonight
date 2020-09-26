@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+    whos-out-tonight:
+        build:
+            context: .
+            dockerfile: DockerFile
+        ports:
+            - 5001:80
